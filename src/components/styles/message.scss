@@ -1,0 +1,49 @@
+.message__container {
+    background: #f2f2f2;
+    border-radius: 20px;
+    width: fit-content;
+    height: auto;
+    padding: 0.1em 0.5em 0.1em;
+    margin: 0.2em 0 0.2em;
+
+    &.message__container--only {
+        border-radius: 20px;
+    }
+
+    &.message__container--start {
+        border-radius: 20px 20px 20px 5px;
+    }
+
+    &.message__container--mid {
+        border-radius: 5px 20px 20px 5px;
+    }
+
+    &.message__container--end {
+        border-radius: 5px 20px 20px 20px;
+    }
+
+
+    &.message__container--user {
+        background: #0099fd;
+        color: white;
+        margin-left: auto;
+
+        &.message__container--only {
+            border-radius: 20px;
+        }
+
+        &.message__container--start {
+            border-radius: 20px 20px 5px 20px;
+        }
+
+        &.message__container--mid {
+            border-radius: 20px 5px 5px 20px;
+        }
+
+        &.message__container--end {
+            border-radius: 20px 5px 20px 20px;
+        }
+
+    }
+
+}

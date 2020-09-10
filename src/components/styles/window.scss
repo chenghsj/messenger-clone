@@ -1,0 +1,40 @@
+.window__container {
+  // border: 1px solid black;
+  overflow: hidden;
+  background: white;
+  border-radius: 6px;
+  width: 450px;
+  height: 90%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  box-shadow: 5px 5px 20px #135a91;
+}
+
+@media screen and (max-width: 450px) {
+  .window__container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .head__container {
+    .head__title {
+      font-size: 1em;
+    }
+
+    img {
+      width: 30px !important;
+      height: 30px !important;
+      margin: 0 0.5em 0 0.7em !important;
+    }
+
+    .icon__close {
+      width: 1.3em !important;
+      height: 1.3em !important;
+      position: absolute;
+      right: 0.7em;
+    }
+
+  }
+
+}

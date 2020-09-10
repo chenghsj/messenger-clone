@@ -1,0 +1,28 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+@media screen and (min-width: 900px) {
+
+  //900px 以上
+  .window-container {
+    // width: 500px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  //700px 以下
+  .window-container {
+    // width: 80%;
+  }
+}

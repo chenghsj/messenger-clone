@@ -1,0 +1,19 @@
+.user__container {
+  // border: 1px solid black;
+  flex: 1;
+  height: 100%;
+  background: #f2f2f2;
+
+  .avatar__container {
+    display: flex;
+    align-items: center;
+    padding: 0.7em;
+  }
+
+  .avatar {
+    margin-right: 0.7em;
+    width: 35px;
+    height: 35px;
+  }
+
+}
